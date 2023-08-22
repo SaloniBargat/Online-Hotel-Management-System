@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hotel Grand Inn - Room Booking Form</title>
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Hotel Grand Inn</h1>
+  </header>
+
+  <section id="booking-form">
+    <h2>Room Booking Form</h2>
+    <form>
+      <input type="text" placeholder="Guest Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="tel" placeholder="Phone Number" required>
+      <select required>
+        <option value="" disabled selected>Room Type</option>
+        <option value="single">Single</option>
+        <option value="double">Double</option>
+        <option value="suite">Suite</option>
+      </select>
+      <input type="number" placeholder="Number of Adults" min="1" required>
+      <input type="number" placeholder="Number of Children" min="0" required>
+      <input type="date" placeholder="Check-in Date" required>
+      <input type="date" placeholder="Check-out Date" required>
+      <textarea placeholder="Special Requests"></textarea>
+      <button type="submit">Book Room</button>
+    </form>
+    
+  
+  <!-- /section>
+  <section id="booking-form">
+    <h2>Room Booking Form</h2>
+    <form onsubmit="return bookRoom()"
+      Form fields 
+      <button type="submit">Book Room</button>
+    </form>
+  </section -->
+
+  <footer>
+    <p>&copy; 2023 Hotel Grand Inn. All rights reserved.</p>
+  </footer>
+<!--  -->
+<!-- </html> -->
